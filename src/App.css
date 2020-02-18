@@ -1,5 +1,8 @@
 body{
 
+  height:100vw;
+
+
   background-color: #F2EDD7FF;
 /*  background-color: #D7C49EFF;
  /* background-color:#F0E7E8;*/
@@ -25,15 +28,7 @@ body{
 /*color:#101820FF;*/
  /* color:#36454f;*/
   color:#222629;
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-areas: "nav nav nav"
-                        "aa content bb";
 
-
-
-  grid-template-rows: auto;
-  justify-items: center;
 
 
 }
@@ -44,15 +39,23 @@ body{
 }
 .myName{
 
- justify-self: center;
+grid-area: contents;
 
 }
 .HomePage{
 
-  grid-area: content;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: "navs contents contents"
+  "navs contents contents";
+
+
+
+  grid-template-rows: auto auto auto;
 
 }
 .CardProject{
+
 
   background-color: #FAFAFA;
 border: black hidden 1px;
@@ -87,6 +90,10 @@ border: black hidden 1px;
   color: #61dafb;
 }
 
+ .card .card-image{
+   margin-top: 0;
+ }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -94,4 +101,35 @@ border: black hidden 1px;
   to {
     transform: rotate(360deg);
   }
+}
+.navbar > ul > li > a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar {
+
+
+  grid-area: navs;
+width: 22vw;
+background-color:#18181e;
+  height: 100vw;
+ color:#f7f4e9;
+
+
+}
+.navbar >ul >li {
+  margin-left: 2em;
+  list-style: none;
+
+
+
+}
+.navbar > ul {
+
+
+
+
+
 }

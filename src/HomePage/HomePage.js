@@ -11,25 +11,28 @@ const HomePage = ()=> {
     return(
 
         <div className="HomePage">
-            <nav>
+            <nav className="navbar">
 
 
-            <ul >
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/about">About Me</Link>
-                </li>
-                <li>
-                    <Link to="/dashboard">Contact</Link>
-                </li>
-            </ul>
+<ul>
+    <li>   <h4>Jose Eduardo Gomez Perez</h4>
+    </li>
+
+    <li>Home</li>
+    <li>Skills</li>
+
+</ul>
+
             </nav>
         <div className="myName">
             <h1>{name}</h1>
             <p>my name is Jose Eduardo Gomez Perez</p>
-            <CardProject/>
+            <div className="contents">
+
+                <h2>Projects</h2>
+                <CardProject/>
+            </div>
+
 
         </div>
         </div>
