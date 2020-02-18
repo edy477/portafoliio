@@ -1,7 +1,66 @@
-.App {
-  text-align: center;
+body{
+
+  background-color: #F2EDD7FF;
+/*  background-color: #D7C49EFF;
+ /* background-color:#F0E7E8;*/
+ /* background-color: #F2EDD7FF;
+
+ /* background-color: #131D28;*/
+ /* background-color: #222629;*/
+  /*background-color: #303437;*/
+ /* background-color: #1F2833;*/
+  /*background-color: #414754;*/
 }
 
+.App {
+
+
+
+
+
+  font-family: 'Bitter', sans-serif;
+
+  /*color:#38383A;*/
+ /* color: #191919 ;*/
+/*color:#101820FF;*/
+ /* color:#36454f;*/
+  color:#222629;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: "nav nav nav"
+                        "aa content bb";
+
+
+
+  grid-template-rows: auto;
+  justify-items: center;
+
+
+}
+.myName > h1{
+
+  font-size:40px;
+
+}
+.myName{
+
+ justify-self: center;
+
+}
+.HomePage{
+
+  grid-area: content;
+
+}
+.CardProject{
+
+  background-color: #FAFAFA;
+border: black hidden 1px;
+  box-shadow: 0 0 2px;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: fit-content;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
