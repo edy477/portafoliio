@@ -14,19 +14,29 @@ const HomePage = ()=> {
             <nav className="navbar">
 
 
-<ul>
-    <li>   <h4>Jose Eduardo Gomez Perez</h4>
+<ul className="first">
+    <li className="lifirst">
+        <h2>Jose Eduardo Gomez Perez</h2>
+        <span>Electronic and Communications  Engineer</span>
+
     </li>
 
     <li>Home</li>
+<li>Projects</li>
     <li>Skills</li>
-
 </ul>
+
+
+                <img src="https://img.icons8.com/ios/100/000000/github.png"/>
 
             </nav>
         <div className="myName">
             <h1>{name}</h1>
             <p>my name is Jose Eduardo Gomez Perez</p>
+            <p>About Me</p>
+            <p>dsdsds</p>
+            <h1>Education</h1>
+
             <div className="contents">
 
                 <h2>Projects</h2>
