@@ -1,3 +1,4 @@
+
 body{
 
   height:100vw;
@@ -256,4 +257,62 @@ width: 60vw;
 }
 .skillscard h1{
   text-align: center;
+}
+.navbar .first li a img {
+  position: absolute;
+}
+.home{
+  background-color: #F2EDD7FF;
+  padding: 2em 2em 2em 2em;
+  display: grid;
+  border: 2px solid #868B8E;
+  grid-template-columns: 2fr 2fr ;
+  height: 60vh;
+
+  width: 70vw;
+  -webkit-box-shadow: -7px 4px 5px -5px rgba(204,182,204,1);
+  -moz-box-shadow: -7px 4px 5px -5px rgba(204,182,204,1);
+  box-shadow: -7px 4px 5px -5px rgba(204,182,204,1);
+
+
+}
+.image img {
+  -webkit-transform: rotate(270deg);
+  -webkit-transform-origin: -10 -10;
+  margin-top: 50px;
+  width:300px;
+  border-radius: 50%;
+  object-fit: contain;
+
+  grid-column: 1/2;
+
+
+
+}
+.home .contact h3 a {
+
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.home .contact h3 img {
+
+}
+
+.contact h1 {
+  text-align: center;
+}
+.contact h2 {
+  text-align: center;
+}
+.contact h3 {
+  text-align: center;
+}
+.navbar .profile {
+  margin-top: 2em;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  -webkit-transform: rotate(270deg);
+  overflow: hidden;
+  border-radius: 70%;
 }

@@ -6,7 +6,7 @@ import  * as translations from './translations';
 import  * as traduccion from './translations';
 import EducationCard from "./EducationCard";
 import Navbar from "./Navbar";
-
+import Home from "./Home";
 
 import {LocalContextProvider} from "./Context/LocalContextProvider";
 import {LocalContext} from "./Context/LocalContextProvider";
@@ -40,11 +40,13 @@ return(
 
 
                 <Route exact path="/skills" component={EducationCard}/>
+                <Route exact path="/" component={Home}/>
             </div>
 
 
         </div>
     </div>
+
 </LocalContextProvider>
     </Router>
 );

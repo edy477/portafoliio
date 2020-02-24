@@ -1,4 +1,7 @@
 {
+  "About": {
+    "a1": "Ingeniero en Telecomunicaciones dedicado y apasionado al campo de la ingieneria de software, a desarrollado varios proyectos personal en distintos lenguajes de programacions"
+  },
   "Menu":{
     "title": "Ingeniero En Telecomunicaciones",
     "C1": "Inicio",
@@ -14,5 +17,8 @@
    "e3": "2014 - 2019"
 
 
-}
+},
+  "Experiencia": {
+
+  }
 }

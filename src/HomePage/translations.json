@@ -1,4 +1,7 @@
 {
+  "About": {
+    "a1": "An entusisast   Software Devolper  with background in  Electronics and Communications Engineer with          "
+  },
   "Menu":{
     "title": "Ingeniero En Telecomunicaciones",
     "C1": "Home",
@@ -19,7 +22,14 @@
     "s3": "Java",
     "s4": "Python",
     "s5": "Bash"
-  }
+  },
+  "Experience":{
+  "x1": "Deployed the wireless network system to transmit the real time data between the terminal and the central data server",
+  "x2": "Deployed the backend system with consisted in a LAMP (Linux Apache, MySQL, PHP) based stack",
+  "x3": "Designed and implemented the UX of the data repository tool",
+    "x4": "Built the UI in React Framework",
+    "x5": "Implemented a CSV manipulation tool for the real time datasets "
+}
 }
 
 
