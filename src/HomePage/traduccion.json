@@ -1,0 +1,18 @@
+{
+  "Menu":{
+    "title": "Ingeniero En Telecomunicaciones",
+    "C1": "Inicio",
+    "C2": "Projectos",
+    "C3": "Habilidades y Aptitudes",
+    "C4": "Contacto"
+
+},
+
+  "Educación": {
+  "e1":"Ingeniería En Telecomunicaciones",
+    "e2": "Universidad Mesoamericana, Quetzaltenango, Guatemala (UMES)",
+   "e3": "2014 - 2019"
+
+
+}
+}

@@ -1,0 +1,25 @@
+{
+  "Menu":{
+    "title": "Ingeniero En Telecomunicaciones",
+    "C1": "Home",
+    "C2": "Proyects",
+    "C3": "Skills and Education",
+    "C4": "Contact"
+
+  },
+"Education": {
+  "e1": "Bachelor of Engineering Electronic and Communications Engineer",
+  "e2":   "Mesoamerican University, Guatemala (UMES)",
+  "e3": "2014 - 2019 "},
+
+  "Skills": {
+
+  "s1": "C++",
+    "s2": "C#",
+    "s3": "Java",
+    "s4": "Python",
+    "s5": "Bash"
+  }
+}
+
+
