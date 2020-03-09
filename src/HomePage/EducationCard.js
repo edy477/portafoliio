@@ -52,24 +52,35 @@ const EducationCard = ()=> {
                 }else if (state.translation === "English"){
                     return (
                         <React.Fragment>
-                            <h1>Educacion</h1>
+                            <h1 className="title">Education</h1>
 
                             <div className="ims">
                                 <img src="https://www.mesoamericana.edu.gt/wp-content/uploads/2012/01/Logo-Meso-Color-300x283.png" width="100px"/>
                                 <br/>
                                 <img src="https://www.mesoamericana.edu.gt/wp-content/uploads/2018/02/Nuevo-Logo-IUS.png" width="100px"/>
+                                <br/>
+                                <img className="intecap" src="https://www.intecap.edu.gt/centros/centroquetzaltenango/wp-content/uploads/sites/29/2019/01/logo-intecap-2.png" width="100px"/>
                             </div>
 <div className="contentcard">
     <h1>{translations.Education.e2}</h1>
     <h2>{translations.Education.e3}</h2>
 
     <h2>{translations.Education.e1}</h2>
-
+<br/>
+    <br/>
+    <br/>
+    <h1>{translations.Education.e5}</h1>
+    <h3>{translations.Education.e6}</h3>
+    <h2>{translations.Education.e4}</h2>
+    <br/>
+    <h1>{translations.Education.e8}</h1>
+    <h2>{translations.Education.e9}</h2>
+    <h2>{translations.Education.e7}</h2>
 
 
 </div>
 <div className="skillscard">
-    <h1>Skills</h1>
+    <h1 className="skills">Skills</h1>
 
     <i className="devicon-amazonwebservices-plain-wordmark"></i>
     <i className="devicon-apache-line-wordmark colored"></i>

@@ -16,11 +16,8 @@ const clicked = (e) => {
     return(
 
         <nav role="selected">
-            <ul>
 
 
-            </ul>
-            <ul>
 
 
                     <ul className="dropdown">
@@ -28,8 +25,8 @@ const clicked = (e) => {
                         <li value="Spanish" onClick={clicked}><a href="#" name="en">English</a></li>
                     </ul>
 
-            </ul>
-            <p></p>
+
+
         </nav>
     )
 };

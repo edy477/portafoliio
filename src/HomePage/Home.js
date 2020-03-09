@@ -10,6 +10,7 @@ const Home = ()=> {
     return(
         <div className="home">
 
+
            <div className="image">
 
            </div>
@@ -28,9 +29,11 @@ const Home = ()=> {
 
                     }else if (state.translation === "English"){
                         return (
+
                             <React.Fragment>
+
                                 <h2>About Me</h2>
-                                <h4>{traduccion.About.a1}</h4>
+                                <h4>{translations.About.a1}</h4>
 
                             </React.Fragment>
                         );

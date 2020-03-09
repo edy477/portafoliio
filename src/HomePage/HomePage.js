@@ -8,6 +8,7 @@ import EducationCard from "./EducationCard";
 import Navbar from "./Navbar";
 import Home from "./Home";
 
+
 import {LocalContextProvider} from "./Context/LocalContextProvider";
 import {LocalContext} from "./Context/LocalContextProvider";
 
@@ -40,6 +41,7 @@ return(
 
 
                 <Route exact path="/skills" component={EducationCard}/>
+                <Route exact path="/proyects" component={CardProject}/>
                 <Route exact path="/" component={Home}/>
             </div>
 

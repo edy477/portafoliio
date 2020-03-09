@@ -20,5 +20,11 @@
 },
   "Experiencia": {
 
+  },
+  "Projects": {
+    "p1": "Weather News App ",
+    "p2": "React Js/ Bulma / Javascript / Dark Skye API /  Mapbox gli ",
+    "p3": "A wheater news  single page application, with a interactive  state map based on United States Country with the options to select the city  ",
+    "p4": "A interactive selection menu "
   }
 }

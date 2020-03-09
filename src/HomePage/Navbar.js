@@ -13,15 +13,16 @@ return(
 
         <ul className="first">
             <li className="lifirst">
-                <img className="profile" src={process.env.PUBLIC_URL+'/profile.jpg'} />
                 <h2>Jose Eduardo Gomez Perez</h2>
 
-                <span>Electronic and Communications  Engineer</span>
+                <img className="profile" src={process.env.PUBLIC_URL+'/profile.jpg'} />
+
+<br/>
+                <span>Software Developer / Electronic and Communications  Engineer</span>
                 <br/>
-                <a href="https://www.linkedin.com/in/jose-eduardo-gomez-perez-4a3b8963/"><img src="https://img.icons8.com/color/128/000000/linkedin.png" width="40px"/></a>
 
             </li>
-
+<br/>
 
 
             {(()=>{
@@ -47,8 +48,12 @@ return(
                 }
 
             })()}
+<br/>
 
-
+            <li>                <a href="https://www.linkedin.com/in/jose-eduardo-gomez-perez-4a3b8963/"><img src="https://img.icons8.com/color/128/000000/linkedin.png" width="40px"/></a>
+                <a href="https://github.com/edy477/"> <img  className="gits" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30px"/></a>
+                <a className="gmails" href = "mailto: edy47@mesoamericana.edu.gt"><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQrS8N3y34GkFvma2MV6h-3IRpZ0JG7VQnOwRfkYqzEH5u9KNh&s" width="30px"/></a>
+            </li>
         </ul>
 
 
