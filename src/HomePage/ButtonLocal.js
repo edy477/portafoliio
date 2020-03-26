@@ -11,7 +11,11 @@ const clicked = (e) => {
 
 
     };
-
+/*
+* <ul className="dropdown">
+                        <li value="Español" onClick={clicked}><a href="#" name="es" >Español/Spanish</a></li>
+                        <li value="Spanish" onClick={clicked}><a href="#" name="en">English</a></li>
+                    </ul>*/
 
     return(
 
@@ -20,10 +24,7 @@ const clicked = (e) => {
 
 
 
-                    <ul className="dropdown">
-                        <li value="Español" onClick={clicked}><a href="#" name="es" >Español/Spanish</a></li>
-                        <li value="Spanish" onClick={clicked}><a href="#" name="en">English</a></li>
-                    </ul>
+
 
 
 

@@ -16,8 +16,23 @@ const CardProject = ()=>{
                 if(state.translation === "Español/Spanish"){
                     return (
                         <React.Fragment>
-                            <h2>Proyect Name</h2>
 
+                            <div className="heads">
+
+                                <h1>{traduccion.Projects.p1}</h1>
+                                <h2><a href="https://metheor.edy47.now.sh/">https://metheor.edy47.now.sh/</a> </h2>
+                            </div>
+
+                            <div className="platforms">
+                                <h2>Plataformas:</h2>
+                                <h3>{traduccion.Projects.p2}</h3>
+
+                            </div>
+                            <div className="description">
+                                <h2>Descripcion: </h2>
+                                <p>{traduccion.Projects.p3}</p>
+
+                            </div>
                             <img className="imageproyect" src="https://storage.googleapis.com/openscreenshot/R%2FA%2Fr/hHO1mrAR.png"/>
 
                         </React.Fragment>

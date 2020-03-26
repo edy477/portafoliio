@@ -45,10 +45,27 @@ const Home = ()=> {
 
 
 
-                <h2>Contact </h2>
-                <h3><img src="https://img.icons8.com/color/128/000000/linkedin.png" width="40px"/>  <a href="https://www.linkedin.com/in/jose-eduardo-gomez-perez-4a3b8963/">Linkendin</a></h3>
-                <h3><img src="https://img.icons8.com/ios/150/000000/github.png" width="40px"/><a href="https://github.com/edy477/">Github</a> </h3>
-                <h3>  <a href="#">edy47@mesoamericana.edu.gt</a> </h3>
+
+                <div className="desc">
+
+<div className="a1">
+    <img src="https://img.icons8.com/color/128/000000/linkedin.png" width="40px"/>  <a href="https://www.linkedin.com/in/jose-eduardo-gomez-perez-4a3b8963/"></a>
+    <img src="https://img.icons8.com/ios/150/000000/github.png" width="40px"/><a href="https://github.com/edy477/"></a>
+    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQrS8N3y34GkFvma2MV6h-3IRpZ0JG7VQnOwRfkYqzEH5u9KNh&s" width="30px"/>
+</div>
+             <div className="b1">
+                 <a href="#">Linkendin</a>
+                 <br/>
+                 <br/>
+
+                 <a href="#">Github</a>
+                 <br/>
+                 <br/>
+
+                 <a href="#">edy47@mesoamericana.edu.gt</a>
+             </div>
+
+                </div>
 
             </div>
 

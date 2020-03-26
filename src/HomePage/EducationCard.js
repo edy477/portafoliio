@@ -11,17 +11,38 @@ const EducationCard = ()=> {
                 if(state.translation === "Español/Spanish"){
                     return (
                         <React.Fragment>
-                            <h1>Education</h1>
-                          <h1>__________________________________________</h1>
+
+
+                            <h1 className="title">Educacion</h1>
+
+                            <div className="ims">
+                                <img src="https://www.mesoamericana.edu.gt/wp-content/uploads/2012/01/Logo-Meso-Color-300x283.png" width="100px"/>
+                                <br/>
+                                <img src="https://www.mesoamericana.edu.gt/wp-content/uploads/2018/02/Nuevo-Logo-IUS.png" width="100px"/>
+                                <br/>
+                                <img className="intecap" src="https://www.intecap.edu.gt/centros/centroquetzaltenango/wp-content/uploads/sites/29/2019/01/logo-intecap-2.png" width="100px"/>
+                            </div>
+
 <div className="contentcard">
 
     <h1>{traduccion.Educación.e2}</h1>
     <h2><b>{traduccion.Educación.e3}</b></h2>
     <h2><b>{traduccion.Educación.e1}</b></h2>
+    <br/>
+    <br/>
+    <br/>
+    <h1>{traduccion.Educación.e5}</h1>
+    <h3>{traduccion.Educación.e6}</h3>
+    <h2>{traduccion.Educación.e4}</h2>
+    <br/>
+    <h1>{traduccion.Educación.e8}</h1>
+    <h2>{traduccion.Educación.e9}</h2>
+    <h2>{traduccion.Educación.e7}</h2>
+
 </div>
                             <div className="skillscard">
 
-                                <h1>Aptitudes y Habilidades</h1>
+                                <h1 className="skills">Aptitudes y Habilidades</h1>
 
                                 <i className="devicon-amazonwebservices-plain-wordmark"></i>
                                 <i className="devicon-apache-line-wordmark colored"></i>
